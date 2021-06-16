@@ -1,4 +1,4 @@
 void main() {
 //Info
-  print("This is a simple game");
-}
+  print("This is a simple game")
+;}
