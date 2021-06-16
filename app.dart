@@ -1,3 +1,3 @@
 void main() {
-  print("A");
+  print("This is a simple game");
 }
