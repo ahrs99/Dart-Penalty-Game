@@ -21,13 +21,13 @@ void add_power(var userDirection) {
     int ai_p = rng.nextInt(101);
     if (ai_d != userDirection) {
       print(
-          "You shoot in the ${enumToStr(userDirection)} with the $user_p power and ai jumped in the ${enumToStr(ai_d)} with $ai_p so you won! ");
+          "You shoot in the ${enumToStr(userDirection)} with the $user_p power and ai jumped in the ${enumToStr(ai_d)} with $ai_p so you won! \n ");
     } else if (int.parse(user_p) > ai_p) {
       print(
-          "You shoot in the ${enumToStr(userDirection)} with the $user_p power and ai jumped in the ${enumToStr(ai_d)} with $ai_p so you won! ");
+          "You shoot in the ${enumToStr(userDirection)} with the $user_p power and ai jumped in the ${enumToStr(ai_d)} with $ai_p so you won! \n ");
     } else {
       print(
-          "You shoot in the ${enumToStr(userDirection)} with the $user_p power and ai jumped in the ${enumToStr(ai_d)} with $ai_p so you lost! ");
+          "You shoot in the ${enumToStr(userDirection)} with the $user_p power and ai jumped in the ${enumToStr(ai_d)} with $ai_p so you lost! \n ");
     }
   } else {
     print("Invalid Power");
