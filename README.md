@@ -1,2 +1,2 @@
 # Dart-Penalty-Game
-A simple in commandline game puerly in dart.
+A simple command line game puerly in dart.
